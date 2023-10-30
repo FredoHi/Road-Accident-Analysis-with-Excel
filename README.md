@@ -14,7 +14,7 @@ This project is an analysis aimed at assessing  the cause and predominant factor
 
 For this analysis, I used a synthetic dataset from **Kaggle**, comprising 306,440 rows and 21 data fields. 
 
-**_Disclaimer_**: It is important to note that this dataset is not affiliated with any government agency or official stakeholder. The analysis was performed using **_Microsoft Excel_**
+**_Disclaimer_**: It is important to note that this dataset is not affiliated with any government agency or official stakeholder. The analysis was performed using [**_Microsoft Excel_**](https://docs.google.com/spreadsheets/d/1TudFa12JPTig-jxKnPzf9AbHD31vUNsB/edit?usp=drive_link&ouid=106136833865926771018&rtpof=true&sd=true)
 
 ## Data Cleaning:
 To ensure data accuracy, I initiated the cleaning process by applying filters to the fields, searching for blanks, duplicates, and typos. The accident index field was identified as the primary key for this dataset due to its dynamic nature with no typos, blanks, or duplicates.
@@ -23,7 +23,7 @@ To ensure data accuracy, I initiated the cleaning process by applying filters to
 While examining the dataset, I identified some blank rows in specific fields, such as Carriage Way (3 blank rows), Road Surface Condition (1534 blank rows), and Weather Conditions (6057 blank rows). I opted to retain these blank rows, as they did not significantly affect the project's objectives. In the Accident Severity field, I encountered the term "fetal," which was corrected to "fatal" as it was likely a typographical error.
 
 #### Data Analysis and Visualization:
-I utilized pivot tables and pivot charts for our analysis and visualization. I began by generating insights for Key Performance Indicators (KPIs) and created visualizations. To streamline chart creation, I copied and adjusted the data source for each insight.
+I utilized pivot tables and pivot charts for this analysis and visualization. I began by generating insights for Key Performance Indicators (KPIs) and created visualizations. To streamline chart creation, I copied and adjusted the data source for each insight, your can interact with the Dashboard [here](https://docs.google.com/spreadsheets/d/1TudFa12JPTig-jxKnPzf9AbHD31vUNsB/edit?usp=drive_link&ouid=106136833865926771018&rtpof=true&sd=true)
 
 I also created a pivot table and line chart to illustrate the monthly trends in accidents per year. We assessed the impact of road type on accidents by generating another pivot table and bar chart, taking into account the blank rows. To present accurate data, I added data labels to the chart, adjusting the number format as needed.
 
